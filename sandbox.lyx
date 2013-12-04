@@ -1,0 +1,343 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+% Various typog libraries
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{color}
+
+% Colours for literature chart
+\definecolor{qual}{rgb}{0,0,1}
+\definecolor{mixed}{rgb}{0.5,0,0.5}
+\definecolor{quant}{rgb}{1,0,0}
+
+% Ragged Right
+\usepackage{ragged2e}
+
+%Drawing
+\usepackage{mdwlist}
+\usepackage{tikz} 
+\usepackage{pgfplots}
+% recommended as of Pgfplots 1.3:
+\pgfplotsset{compat=newest}
+\usetikzlibrary{shapes,arrows,positioning,fit,mindmap,trees}
+
+
+% Define block styles 
+\tikzstyle{b} = [rectangle, draw,text width=20em, text centered, rounded corners, minimum height=4em] 
+\tikzstyle{n} = [rectangle, draw,text width=15em, text centered, rounded corners, minimum height=4em] 
+\tikzstyle{nn} = [rectangle, draw,text width=8em, text centered, rounded corners, minimum height=4em] 
+\tikzstyle{line} = [draw, -latex']   
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language british
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+arraystretch}{2}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{m{8em}p{11em}p{11em}p{11em}} 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+toprule  
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+multicolumn{1}{l}{
+\backslash
+textbf{Factor}} & 
+\backslash
+multicolumn{3}{c}{
+\backslash
+textbf{Noticing Threshold lowered...}} 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+cmidrule{2-4}  
+\end_layout
+
+\begin_layout Plain Layout
+
+	& 
+\backslash
+textbf{...in a positive way} & 
+\backslash
+textbf{...in a neutral way} & 
+\backslash
+textbf{...in a negative way} 
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+textbf{Activity}
+\end_layout
+
+\begin_layout Plain Layout
+
+	& -	& -	&   Work
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+textbf{Expectation}
+\end_layout
+
+\begin_layout Plain Layout
+
+	& 
+\backslash
+parbox[t]{5cm}{Atypical, unnusual
+\backslash
+
+\backslash
+ environments} 
+\end_layout
+
+\begin_layout Plain Layout
+
+	& 
+\backslash
+parbox[t]{5cm}{Atypical, unnusual
+\backslash
+
+\backslash
+ environments}
+\end_layout
+
+\begin_layout Plain Layout
+
+	& 
+\backslash
+parbox[t]{5cm}{Typical, disliked
+\backslash
+
+\backslash
+ environments}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+textbf{Control}
+\end_layout
+
+\begin_layout Plain Layout
+
+	&	High control & - & Low control
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+
+\backslash
+  
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+bottomrule 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\emph on
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Research literature outline
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Research-literature-outline"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
